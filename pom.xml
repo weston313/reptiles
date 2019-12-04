@@ -9,10 +9,13 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>amap-reptile</module>
         <module>common</module>
         <module>amap</module>
     </modules>
+
+    <properties>
+        <junit.version>4.12</junit.version>
+    </properties>
 
 
 </project>
