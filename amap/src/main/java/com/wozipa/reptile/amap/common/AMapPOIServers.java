@@ -11,9 +11,12 @@ public class AMapPOIServers {
     // 查询服务所需要的KEY
     public static String POI_SERVER_PARAM_KEY = "key";
 
+
+    public static int[] POI_FIRST_LEVE_TYPES = new int[]{};
+
     public static class POLYGON {
         // 按照多边形查询
-        public static String POLYGON_SERVER_URL = "https://restapi.amap.com/v3/place/polygon?parameters";
+        public static String POLYGON_SERVER_URL = "https://restapi.amap.com/v3/place/polygon";
         public static String POLYGON_PARAM_POLYGON = "polygon";
         public static String POLYGON_PARAM_KEYWORDS = "keywords";
         public static String POLYGON_PARAM_TYPES = "types";

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ced29e5-0cd9-44cb-9874-549db0865a25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/amap/src/test/java/com/wozipa/reptile/amap/poi/AMapRectangleReptileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/reptiles.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amap/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPolygonReptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapRectangleReptile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java" beforeDir="false" afterPath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapRectangleReptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapRectangleReptile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,24 +19,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="50" />
+            <state relative-caret-position="230">
+              <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapRectangleReptile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+            <state relative-caret-position="865">
+              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1253#1254#0" expanded="true" />
-                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,9 +45,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Envelope.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="132" column="9" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
+            <state relative-caret-position="306">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
+                <element signature="e#3720#3721#0" expanded="true" />
+                <element signature="e#3736#3737#0" expanded="true" />
                 <element signature="e#4049#4050#0" expanded="true" />
                 <element signature="e#4079#4080#0" expanded="true" />
               </folding>
@@ -61,28 +58,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.60/fastjson-1.2.60.jar!/com/alibaba/fastjson/JSONObject.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Geometry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+            <state relative-caret-position="452">
+              <caret line="1308" column="18" selection-start-line="1308" selection-start-column="18" selection-end-line="1308" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Polygon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/resources/reptiles.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="311">
+              <caret line="274" column="18" selection-start-line="274" selection-start-column="18" selection-end-line="274" selection-end-column="18" />
+              <folding>
+                <element signature="e#7447#7448#0" expanded="true" />
+                <element signature="e#7473#7474#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,47 +82,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/amap/src/test/java/com/wozipa/reptile/amap/poi/AMapRectangleReptileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="187">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/Configuration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/amap/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/HttpGetClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,7 +115,6 @@
         <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/Get.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/log/Logging.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/HttpGetClient.java" />
-        <option value="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java" />
         <option value="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPolygonReptile.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/amap/src/test/java/com/wozipa/reptile/amap/poi/AMapRectangleReptileTest.java" />
@@ -170,6 +124,7 @@
         <option value="$PROJECT_DIR$/common/src/main/resources/reptiles.conf" />
         <option value="$PROJECT_DIR$/amap/pom.xml" />
         <option value="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapRectangleReptile.java" />
+        <option value="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java" />
       </list>
     </option>
   </component>
@@ -191,12 +146,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="amap" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="amap" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -214,8 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -474,10 +422,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575447510069" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575635977661" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -553,32 +503,45 @@
       <option name="project" value="LOCAL" />
       <updated>1575378467453</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix bug">
+      <created>1575465581923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575465581923</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.04 at 11h 48m 05s.xml">
+    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.06 at 17h 08m 06s.xml">
       <configuration name="AMapRectangleReptileTest.testMain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.04 at 11h 48m 23s.xml">
+    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.06 at 17h 14m 17s.xml">
       <configuration name="AMapRectangleReptileTest.testMain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.04 at 11h 48m 59s.xml">
+    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.06 at 17h 15m 25s.xml">
       <configuration name="AMapRectangleReptileTest.testMain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.04 at 11h 51m 29s.xml">
+    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.06 at 17h 16m 06s.xml">
       <configuration name="AMapRectangleReptileTest.testMain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.04 at 11h 51m 59s.xml">
+    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.06 at 17h 20m 03s.xml">
       <configuration name="AMapRectangleReptileTest.testMain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.04 at 11h 52m 16s.xml">
+    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.06 at 17h 31m 55s.xml">
       <configuration name="AMapRectangleReptileTest.testMain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.04 at 11h 52m 50s.xml">
+    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.06 at 20h 32m 31s.xml">
       <configuration name="AMapRectangleReptileTest.testMain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.04 at 14h 52m 26s.xml">
+    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.06 at 20h 33m 42s.xml">
+      <configuration name="AMapRectangleReptileTest.testMain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.06 at 20h 35m 28s.xml">
+      <configuration name="AMapRectangleReptileTest.testMain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AMapRectangleReptileTest_testMain - 2019.12.06 at 20h 36m 25s.xml">
       <configuration name="AMapRectangleReptileTest.testMain" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -586,17 +549,16 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26495728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -606,6 +568,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
@@ -618,7 +581,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add geotools library" />
-    <option name="LAST_COMMIT_MESSAGE" value="add geotools library" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/amap-reptile/pom.xml" />
@@ -639,13 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/GeometryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -677,13 +634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/amap/src/main/resources/amap.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/src/main/resources/amap.conf" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.3.1/config-1.3.1.jar!/com/typesafe/config/ConfigFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -698,25 +649,41 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/amap/src/test/java/com/wozipa/reptile/amap/poi/AMapRectangleReptileTest.java">
+    <entry file="file://$PROJECT_DIR$/amap/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="1258">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/HttpGetClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.60/fastjson-1.2.60.jar!/com/alibaba/fastjson/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="858">
+          <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -727,59 +694,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/HttpGetClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Polygon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="311">
+          <caret line="274" column="18" selection-start-line="274" selection-start-column="18" selection-end-line="274" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#7447#7448#0" expanded="true" />
+            <element signature="e#7473#7474#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amap/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.60/fastjson-1.2.60.jar!/com/alibaba/fastjson/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Envelope.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="132" column="9" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
+            <element signature="e#3720#3721#0" expanded="true" />
+            <element signature="e#3736#3737#0" expanded="true" />
             <element signature="e#4049#4050#0" expanded="true" />
             <element signature="e#4079#4080#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapRectangleReptile.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Geometry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+        <state relative-caret-position="452">
+          <caret line="1308" column="18" selection-start-line="1308" selection-start-column="18" selection-end-line="1308" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/src/test/java/com/wozipa/reptile/amap/poi/AMapRectangleReptileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/GeometryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="462" column="17" selection-start-line="462" selection-start-column="17" selection-end-line="462" selection-end-column="17" />
+          <folding>
+            <element signature="e#16964#16965#0" expanded="true" />
+            <element signature="e#17019#17020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapRectangleReptile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
         </state>
       </provider>
     </entry>
