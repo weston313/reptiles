@@ -22,10 +22,10 @@ import java.util.Date;
 public class AMapRectangleReptile {
 
     public static Logger LOGGER = Logger.getLogger(AMapRectangleReptile.class);
-
     private static GeometryFactory FACTORT = JTSFactoryFinder.getGeometryFactory();
 
     private Polygon polygon;
+    private int offset = Integer.parseInt(Configuration.GetInstance().get("amap.offset"));
     private String outputFilePath = System.getProperty("user.home")
             + "/reptiles/" + "AMAP_REPTILE_"
             + new SimpleDateFormat("yyyyMMdd").format(new Date())
@@ -77,7 +77,8 @@ public class AMapRectangleReptile {
         String polyServerUrl = AMapPOIServers.POLYGON.POLYGON_SERVER_URL + "?"
                 + AMapPOIServers.POLYGON.POLYGON_PARAM_POLYGON + "=%s" + "&"
                 + AMapPOIServers.POI_SERVER_PARAM_KEY + "=" + configuration.get("amap.key") + "&"
-                + "types=%s";
+                + "types=%s" + "&"
+                + "offset=" + offset;
 
         for(String type : AMapPOIServers.POI_FIRST_LEVE_TYPES){
             doReptile(polyServerUrl, this.polygon, type);
@@ -119,7 +120,7 @@ public class AMapRectangleReptile {
         // 检查content数据内容
         JSONObject root = JSONObject.parseObject(content);
         long count = root.getLong("count");
-        if (count >= 20) {
+        if (count >= offset) {
             // 进行空间切换，重新爬取数据
             Polygon[] children = splitPolygon(polygon);
             for(Polygon child : children){
