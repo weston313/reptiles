@@ -101,7 +101,7 @@ public class AMapRectangleReptile {
 
         // 考虑到个人账号查询次数有限，所以进行3秒休息
         try {
-            Thread.sleep(3000);
+            Thread.sleep(Long.parseLong(Configuration.GetInstance().get("amap.sleep")));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -128,26 +128,34 @@ public class AMapRectangleReptile {
             }
         }
         else if(count > 0){
-            System.out.println(content);
-            File file = new File(this.outputFilePath);
-            BufferedWriter writer = null;
-            try {
-                if(!file.exists()) file.createNewFile();
-                writer = new BufferedWriter(new FileWriter(file, true));
-                writer.write(content);
-                writer.write("\r\n");
-                writer.flush();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            finally {
-                if(writer != null) {
-                    try {
-                        writer.flush();
-                        writer.close();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+            writeContent(content);
+        }
+    }
+
+    /**
+     * 爬取的结果写出到文件中
+     * @param content
+     */
+    private void writeContent(String content){
+        System.out.println(content);
+        File file = new File(this.outputFilePath);
+        BufferedWriter writer = null;
+        try {
+            if(!file.exists()) file.createNewFile();
+            writer = new BufferedWriter(new FileWriter(file, true));
+            writer.write(content);
+            writer.write("\r\n");
+            writer.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        finally {
+            if(writer != null) {
+                try {
+                    writer.flush();
+                    writer.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
             }
         }
