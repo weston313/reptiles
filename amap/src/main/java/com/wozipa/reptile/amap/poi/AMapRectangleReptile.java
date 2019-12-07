@@ -71,7 +71,7 @@ public class AMapRectangleReptile {
     private String polygonText(Polygon polygon) {
         StringBuffer sb = new StringBuffer();
         int index = 0;
-        for (Coordinate point : this.polygon.getCoordinates()) {
+        for (Coordinate point : polygon.getCoordinates()) {
             if (index > 0) sb.append("%7C");
             sb.append(point.getX()).append(",").append(point.getY());
             index++;
@@ -87,13 +87,15 @@ public class AMapRectangleReptile {
         String polyServerUrl = AMapPOIServers.POLYGON.POLYGON_SERVER_URL + "?"
                 + AMapPOIServers.POLYGON.POLYGON_PARAM_POLYGON + "=%s" + "&"
                 + AMapPOIServers.POI_SERVER_PARAM_KEY + "=" + configuration.get("amap.key") + "&"
-                + "types=";
+                + "types=%s";
 
-        doReptile(polyServerUrl, this.polygon);
+        for(String type : AMapPOIServers.POI_FIRST_LEVE_TYPES){
+            doReptile(polyServerUrl, this.polygon, type);
+        }
     }
 
 
-    private void doReptile(String serverUrl, Polygon polygon) {
+    private void doReptile(String serverUrl, Polygon polygon, String type) {
         // 判断服务连接为空
         if (serverUrl == null || serverUrl.equals("")) {
             System.out.println("Polygon Server Url is empty.");
@@ -115,7 +117,7 @@ public class AMapRectangleReptile {
 
         //获取多边形字符串，然后进行字符串替换
         String polyStr = polygonText(polygon);
-        String polySerUrl = String.format(serverUrl, polyStr);
+        String polySerUrl = String.format(serverUrl, polyStr,  type);
 
         System.out.println("Reptile " + polySerUrl);
         HttpGetClient client = new HttpGetClient(polySerUrl);
@@ -135,11 +137,11 @@ public class AMapRectangleReptile {
         // 检查content数据内容
         JSONObject root = JSONObject.parseObject(content);
         long count = root.getLong("count");
-        if (count >= 1000) {
+        if (count >= 20) {
             // 进行空间切换，重新爬取数据
             Polygon[] children = splitPolygon(polygon);
             for(Polygon child : children){
-                doReptile(serverUrl, child);
+                doReptile(serverUrl, child, type);
             }
         }
     }
