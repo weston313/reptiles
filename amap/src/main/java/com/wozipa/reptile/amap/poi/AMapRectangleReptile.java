@@ -25,8 +25,11 @@ public class AMapRectangleReptile {
 
     private static GeometryFactory FACTORT = JTSFactoryFinder.getGeometryFactory();
 
-    private BufferedWriter resultWriter;
     private Polygon polygon;
+    private String outputFilePath = System.getProperty("user.home")
+            + "/reptiles/" + "AMAP_REPTILE_"
+            + new SimpleDateFormat("yyyyMMdd").format(new Date())
+            + ".json";
 
     public AMapRectangleReptile() {
         this(0d, 0d, 180d, 90d);
@@ -45,19 +48,6 @@ public class AMapRectangleReptile {
     public AMapRectangleReptile(Coordinate[] points) {
         GeometryFactory factory = JTSFactoryFinder.getGeometryFactory();
         this.polygon = factory.createPolygon(points);
-        String outputFilePath = System.getProperty("user.home")
-                + "/reptiles/" + "AMAP_REPTILE_"
-                + new SimpleDateFormat("yyyyMMdd").format(new Date())
-                + ".json";
-        System.out.println(outputFilePath);
-        File outputFile = new File(outputFilePath);
-        try {
-            if(!outputFile.exists()) outputFile.createNewFile();
-            this.resultWriter = new BufferedWriter(new FileWriter(outputFile));
-        } catch (IOException e) {
-                e.printStackTrace();
-        }
-
     }
 
     @Override
@@ -126,14 +116,6 @@ public class AMapRectangleReptile {
             content = client.getReponseContent();
         }
 
-        try {
-            System.out.println(content);
-            this.resultWriter.write(content);
-            this.resultWriter.flush();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
         // 检查content数据内容
         JSONObject root = JSONObject.parseObject(content);
         long count = root.getLong("count");
@@ -142,6 +124,30 @@ public class AMapRectangleReptile {
             Polygon[] children = splitPolygon(polygon);
             for(Polygon child : children){
                 doReptile(serverUrl, child, type);
+            }
+        }
+        else if(count > 0){
+            System.out.println(content);
+            File file = new File(this.outputFilePath);
+            BufferedWriter writer = null;
+            try {
+                if(!file.exists()) file.createNewFile();
+                writer = new BufferedWriter(new FileWriter(file, true));
+                writer.write(content);
+                writer.write("\r\n");
+                writer.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            finally {
+                if(writer != null) {
+                    try {
+                        writer.flush();
+                        writer.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
             }
         }
     }
