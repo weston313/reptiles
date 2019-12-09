@@ -15,7 +15,7 @@ public class AMapPOIServers {
 
 
     public static String[] POI_FIRST_LEVE_TYPES = new String[] {
-            "010000", "180000", "060000", "970000", "150000", "990000", "030000", "130000", "140000", "220000",
+            "180000", "010000",  "060000", "970000", "150000", "990000", "030000", "130000", "140000", "220000",
             "070000", "160000", "170000", "090000", "200000", "110000", "050000", "190000", "080000", "020000",
             "100000", "120000", "040000"
     };
@@ -51,9 +51,4 @@ public class AMapPOIServers {
         public static String POLYGON_PARAM_OUTPUT = "output";
         public static String POLYGON_PARAM_CALLBACK = "callback";
     }
-
-
-
-
-
 }
