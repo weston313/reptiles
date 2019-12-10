@@ -47,4 +47,5 @@ public class AMapPOIServers {
         public static String POLYGON_PARAM_OUTPUT = "output";
         public static String POLYGON_PARAM_CALLBACK = "callback";
     }
+
 }
