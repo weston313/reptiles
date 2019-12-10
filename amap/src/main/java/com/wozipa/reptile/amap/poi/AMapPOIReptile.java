@@ -191,7 +191,7 @@ public final class AMapPOIReptile {
         double centerY = doubleCutSix((minY + maxY)/2);
 
         // 进行空间多边形切割
-        double surge = 0.000001;
+        double surge = 0d;
         return new Polygon[] {
                 intersect(polygon, new Envelope(minX - surge, centerX - surge, minY + surge, centerY + surge)),
                 intersect(polygon, new Envelope(minX - surge, centerX- surge, centerY + surge, maxY + surge)),

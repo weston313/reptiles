@@ -4,9 +4,10 @@
     <list default="true" id="2ced29e5-0cd9-44cb-9874-549db0865a25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/amap.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amap/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java" beforeDir="false" afterPath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPOIReptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPOIReptile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/HttpGetClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/HttpGetClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,17 +25,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPOIReptile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/amap/pom.xml">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/HttpGetClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="213">
+              <caret line="52" column="51" lean-forward="true" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,12 +83,12 @@
       <list>
         <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/Get.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/log/Logging.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/HttpGetClient.java" />
         <option value="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPolygonReptile.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/amap/src/main/resources/amap.conf" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/Configuration.java" />
+        <option value="$PROJECT_DIR$/amap/pom.xml" />
         <option value="$PROJECT_DIR$/amap/src/main/resources/amap_poi_type.txt" />
         <option value="$PROJECT_DIR$/common/src/main/resources/reptiles.conf" />
         <option value="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapRectangleReptile.java" />
@@ -87,17 +98,17 @@
         <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/output/Writer.java" />
         <option value="$PROJECT_DIR$/amap/src/test/java/com/wozipa/reptile/amap/poi/AMapPOIReptileTest.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/output/TextWriter.java" />
-        <option value="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPOIReptile.java" />
         <option value="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java" />
-        <option value="$PROJECT_DIR$/amap/pom.xml" />
+        <option value="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPOIReptile.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/HttpGetClient.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../Shared/opt/maven-3.6.1" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../Shared/opt/maven-3.6.1/conf/settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Shared/opt/maven-3.3.9" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../Shared/opt/maven-3.3.9/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -111,12 +122,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="amap" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="amap" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -134,22 +140,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575896958399" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575967339311" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.4025157" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -322,10 +334,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22896698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2802198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,25 +346,24 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43265307" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43265307" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Tool Output" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32871288" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32959184" />
-      <window_info anchor="bottom" id="SBT Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info active="true" anchor="right" id="Maven" order="6" visible="true" weight="0.16453674" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.16483517" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
@@ -386,11 +397,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Collection.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Point.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1.jar!/org/locationtech/jts/geom/Point.class" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1.jar!/org/locationtech/jts/geom/Point.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/amap/src/main/resources/amap.conf" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.3.1/config-1.3.1.jar!/com/typesafe/config/ConfigFactory.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.3.1/config-1.3.1.jar!/com/typesafe/config/ConfigFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -403,19 +445,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/HttpGetClient.java">
+    <entry file="file://$PROJECT_DIR$/amap/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1258">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.60/fastjson-1.2.60.jar!/com/alibaba/fastjson/JSONObject.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.60/fastjson-1.2.60.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -423,10 +466,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Polygon.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Geometry.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/GeometryFactory.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/io/Writer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Polygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="274" column="18" selection-start-line="274" selection-start-column="18" selection-end-line="274" selection-end-column="18" />
+          <folding>
+            <element signature="e#7447#7448#0" expanded="true" />
+            <element signature="e#7473#7474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Geometry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="1308" column="18" selection-start-line="1308" selection-start-column="18" selection-end-line="1308" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/GeometryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="462" column="17" selection-start-line="462" selection-start-column="17" selection-end-line="462" selection-end-column="17" />
+          <folding>
+            <element signature="e#16964#16965#0" expanded="true" />
+            <element signature="e#17019#17020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="222" column="18" selection-start-line="222" selection-start-column="18" selection-end-line="222" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/amap/src/main/resources/amap_poi_type.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -441,8 +516,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Coordinate.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Envelope.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+          <folding>
+            <element signature="e#3956#3957#0" expanded="true" />
+            <element signature="e#3991#3992#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/Envelope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="291" column="16" selection-start-line="291" selection-start-column="16" selection-end-line="291" selection-end-column="16" />
+          <folding>
+            <element signature="e#3720#3721#0" expanded="true" />
+            <element signature="e#3736#3737#0" expanded="true" />
+            <element signature="e#4049#4050#0" expanded="true" />
+            <element signature="e#4079#4080#0" expanded="true" />
+            <element signature="e#7389#7390#0" expanded="true" />
+            <element signature="e#7410#7411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/output/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -450,21 +549,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/io/File.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/DataTypeEnum.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="454">
+          <caret line="1338" column="19" selection-start-line="1338" selection-start-column="19" selection-end-line="1338" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/app/Main.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="192">
+          <caret line="633" column="19" selection-start-line="633" selection-start-column="19" selection-end-line="633" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#23072#23073#0" expanded="true" />
+            <element signature="e#23112#23113#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -483,36 +581,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/amap/src/test/java/com/wozipa/reptile/amap/poi/AMapPOIReptileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/DataTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/app/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPOIReptile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/amap/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/http/HttpGetClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="213">
+          <caret line="52" column="51" lean-forward="true" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -525,7 +643,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.4025157" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -537,7 +655,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.4025157" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -545,11 +663,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.11.8</last-edited>
+          <last-edited>Bundled Protobuf Distribution</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.4025157" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -557,11 +675,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8.0_141</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.4025157" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -598,7 +716,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.4025157" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

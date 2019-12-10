@@ -33,20 +33,32 @@ public class HttpGetClient {
         this.url = url;
     }
 
-    public boolean sendRequest() {
+    public boolean sendRequest(){
+        return sendRequest(1);
+    }
+
+    public boolean sendRequest(int times) {
         if(url == null || url.equals(""))  {
             LOGGER.info("URL is empty and cannot send request.");
             return false;
         }
 
-        HttpGet httpGet = new HttpGet(url);
-        try {
-            this.response = client.execute(httpGet);
-        } catch (IOException e) {
-            e.printStackTrace();
-            return false;
+        int time = 0;
+        boolean needSend = true;
+        boolean success = false;
+
+        // 用户设置重试次数进行网络重试
+        while(time < times && needSend){
+            try {
+                HttpGet httpGet = new HttpGet(url);
+                this.response = client.execute(httpGet);
+                needSend =  false;
+                success = true;
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
-        return true;
+        return success;
     }
 
     public String getReponseContent(){

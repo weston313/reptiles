@@ -1,6 +1,5 @@
 package com.wozipa.reptile.amap.app;
 
-import com.wozipa.reptile.amap.common.AMapPOIServers;
 import com.wozipa.reptile.amap.common.DataTypeEnum;
 import com.wozipa.reptile.amap.poi.AMapPOIReptile;
 
