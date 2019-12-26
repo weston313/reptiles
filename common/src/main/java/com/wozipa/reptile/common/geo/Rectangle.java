@@ -5,6 +5,7 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Envelope;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
+import org.w3c.dom.css.Rect;
 
 import java.math.BigDecimal;
 
@@ -70,7 +71,7 @@ public class Rectangle {
 
     public double getCenterX(int decimal){
         return convertDecimal(
-                (this.minX + this.maxY) /2
+                (this.minX + this.maxX) /2
                 , decimal
         );
     }
@@ -87,7 +88,7 @@ public class Rectangle {
     }
 
     private double convertDecimal(double value, int decimal){
-        BigDecimal bg = new BigDecimal(this.minX);
+        BigDecimal bg = new BigDecimal(value);
         return bg.setScale(decimal, BigDecimal.ROUND_HALF_UP).doubleValue();
     }
 
@@ -95,15 +96,24 @@ public class Rectangle {
         return new Envelope(this.minX, this.maxX, this.minY, this.maxY);
     }
 
-    public Geometry convertToPolygon(){
+    public Geometry convertToPolygon(Rectangle rect){
         Coordinate[] points = new Coordinate[] {
-                new Coordinate(this.minX, this.minY),
-                new Coordinate(this.minX, this.maxY),
-                new Coordinate(this.maxX, this.maxY),
-                new Coordinate(this.maxX, this.minY),
-                new Coordinate(this.minX, this.minY)
+                new Coordinate(rect.getMinX(), rect.getMinY()),
+                new Coordinate(rect.getMinX(), rect.getMaxY()),
+                new Coordinate(rect.getMaxX(), rect.getMaxY()),
+                new Coordinate(rect.getMaxX(), rect.getMinY()),
+                new Coordinate(rect.getMinX(), rect.getMinY())
         };
         return factory.createPolygon(points);
+    }
+
+    public Rectangle[] split(double x, double y){
+        return new Rectangle[] {
+                new Rectangle(minX, minY, x, y),
+                new Rectangle(minX, y, x, maxY),
+                new Rectangle(x, y, maxX, maxY),
+                new Rectangle(x, minY, maxY, y)
+        };
     }
     
 }

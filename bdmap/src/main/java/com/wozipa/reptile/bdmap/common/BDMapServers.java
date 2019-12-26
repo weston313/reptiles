@@ -17,7 +17,7 @@ public class BDMapServers {
     public static String RECT_PARAM_COOR_TYPE = "coord_type";
     public static String RECT_PARAM_RET_COOR_TYPE = "ret_coordtype";
 
-    public static String[] POT_TYPE = new String[] {
+    public static String[] POT_TYPES = new String[] {
             "美食", "酒店", "购物", "生活服务", "丽人", "旅游景点", "休闲娱乐", "运动健身",
             "教育培训", "文化传媒", "医疗", "汽车服务", "交通设施", "金融", "房地产",
             "公司企业", "政府机构", "出入口", "自然地物"
