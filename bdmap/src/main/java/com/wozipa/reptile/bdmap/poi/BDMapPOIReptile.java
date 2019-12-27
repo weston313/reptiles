@@ -54,6 +54,13 @@ public class BDMapPOIReptile {
         if(rect == null) return;
         if(url == null || url.equals("")) return;
 
+        // 考虑到个人账号查询次数有限，所以进行3秒休息
+        try {
+            Thread.sleep(Long.parseLong(Configuration.GetInstance().get("bdmap.sleep")));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         // 组装服务URL
         String rectBounds = rectangleToString(rect);
         System.out.println(rectBounds);

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ced29e5-0cd9-44cb-9874-549db0865a25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bdmap/src/test/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bdmap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bdmap/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/common/BDMapServers.java" beforeDir="false" afterPath="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/common/BDMapServers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/geo/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/geo/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/resources/reptiles.conf" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/reptiles.conf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,54 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bdmap/src/test/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptileTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/geo/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1192#1193#0" expanded="true" />
-                <element signature="e#1223#1224#0" expanded="true" />
-                <element signature="e#1256#1257#0" expanded="true" />
-                <element signature="e#1297#1298#0" expanded="true" />
-                <element signature="e#1354#1355#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
-                <element signature="e#1749#1750#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,9 +73,9 @@
         <option value="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/common/BDMapServers.java" />
         <option value="$PROJECT_DIR$/bdmap/pom.xml" />
         <option value="$PROJECT_DIR$/bdmap/src/test/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptileTest.java" />
-        <option value="$PROJECT_DIR$/common/src/main/resources/reptiles.conf" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/geo/Rectangle.java" />
         <option value="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/reptiles.conf" />
       </list>
     </option>
   </component>
@@ -175,126 +124,6 @@
               <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
               <item name="reptiles" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wozipa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wozipa" type="462c0819:PsiDirectoryNode" />
-              <item name="reptile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wozipa" type="462c0819:PsiDirectoryNode" />
-              <item name="reptile" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wozipa" type="462c0819:PsiDirectoryNode" />
-              <item name="reptile" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wozipa" type="462c0819:PsiDirectoryNode" />
-              <item name="reptile" type="462c0819:PsiDirectoryNode" />
-              <item name="bdmap" type="462c0819:PsiDirectoryNode" />
-              <item name="poi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reptiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reptiles" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -302,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577331341951" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577417711960" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -476,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575983098729</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add Baidu Reptile">
+      <created>1577331352610</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577331352610</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -513,7 +349,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -578,7 +413,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java</url>
-          <line>57</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -842,30 +677,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPOIReptile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="116" column="77" selection-start-line="116" selection-start-column="73" selection-end-line="116" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/resources/reptiles.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPOIReptile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2393">
-          <caret line="27" column="90" lean-forward="true" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdmap/src/test/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -891,8 +716,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+        <state relative-caret-position="315">
+          <caret line="58" column="78" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdmap/src/test/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
