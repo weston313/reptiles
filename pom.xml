@@ -11,7 +11,13 @@
     <modules>
         <module>common</module>
         <module>amap</module>
+        <module>bdmap</module>
     </modules>
+
+    <properties>
+        <junit.version>4.12</junit.version>
+        <geotools.version>23-SNAPSHOT</geotools.version>
+    </properties>
 
 
 </project>
