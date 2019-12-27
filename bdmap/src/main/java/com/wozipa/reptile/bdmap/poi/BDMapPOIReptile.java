@@ -17,7 +17,7 @@ public class BDMapPOIReptile {
     private String outputFilePath = System.getProperty("user.home") + "/reptiles/BDMAP_REPTILE_%s.json";
 
     public BDMapPOIReptile(){
-        this(70,  0, 140, 60);
+        this(-180,  -90, 180, 90);
     }
 
     private BDMapPOIReptile(double x1, double y1, double x2, double y2){

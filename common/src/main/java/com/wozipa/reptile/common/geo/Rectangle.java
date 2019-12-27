@@ -112,8 +112,18 @@ public class Rectangle {
                 new Rectangle(minX, minY, x, y),
                 new Rectangle(minX, y, x, maxY),
                 new Rectangle(x, y, maxX, maxY),
-                new Rectangle(x, minY, maxY, y)
+                new Rectangle(x, minY, maxX, y)
         };
     }
-    
+
+    @Override
+    public String toString() {
+        StringBuffer sb = new StringBuffer();
+        sb.append(this.minX)
+                .append(",").append(this.minY)
+                .append(",").append(this.maxX)
+                .append(",").append(this.maxY);
+
+        return sb.toString();
+    }
 }

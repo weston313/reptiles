@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ced29e5-0cd9-44cb-9874-549db0865a25" name="Default Changelist" comment="">
+    <list default="true" id="2ced29e5-0cd9-44cb-9874-549db0865a25" name="Default Changelist" comment="Complete Baidu Reptile">
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/com/wozipa/reptile/common/geo/RectangleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/common/BDMapServers.java" beforeDir="false" afterPath="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/common/BDMapServers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/reptiles.conf" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/reptiles.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/geo/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/geo/Rectangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,7 +21,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bdmap/src/test/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptileTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,6 +64,7 @@
       <find>B0FFH6JIQ8</find>
       <find>reptileCount</find>
       <find>Syste</find>
+      <find>-90.0,0</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,12 +98,13 @@
         <option value="$PROJECT_DIR$/amap/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/common/AMapPOIServers.java" />
-        <option value="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/common/BDMapServers.java" />
         <option value="$PROJECT_DIR$/bdmap/pom.xml" />
         <option value="$PROJECT_DIR$/bdmap/src/test/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptileTest.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/geo/Rectangle.java" />
-        <option value="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java" />
         <option value="$PROJECT_DIR$/common/src/main/resources/reptiles.conf" />
+        <option value="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/common/BDMapServers.java" />
+        <option value="$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java" />
+        <option value="$PROJECT_DIR$/common/src/test/java/com/wozipa/reptile/common/geo/RectangleTest.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/geo/Rectangle.java" />
       </list>
     </option>
   </component>
@@ -131,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577417711960" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577427266028" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -141,6 +170,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wozipa.reptile.common.geo" />
       <recent name="com.wozipa.reptile.bdmap.poi" />
       <recent name="com.wozipa.reptile.amap.poi" />
     </key>
@@ -209,9 +239,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RectangleTest.testSplit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wozipa.reptile.common.geo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wozipa.reptile.common.geo" />
+      <option name="MAIN_CLASS_NAME" value="com.wozipa.reptile.common.geo.RectangleTest" />
+      <option name="METHOD_NAME" value="testSplit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BDMapPOIReptileTest.testMain" />
+        <item itemvalue="JUnit.RectangleTest.testSplit" />
         <item itemvalue="JUnit.AMapPOIReptileTest.testMain" />
         <item itemvalue="JUnit.AMapRectangleReptileTest.testMain" />
       </list>
@@ -312,22 +359,17 @@
       <option name="project" value="LOCAL" />
       <updated>1577331352610</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Complete Baidu Reptile">
+      <created>1577417728159</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1577417728159</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BDMapPOIReptileTest_testMain - 2019.12.26 at 10h 54m 12s.xml">
-      <configuration name="BDMapPOIReptileTest.testMain" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BDMapPOIReptileTest_testMain - 2019.12.26 at 10h 54m 34s.xml">
-      <configuration name="BDMapPOIReptileTest.testMain" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BDMapPOIReptileTest_testMain - 2019.12.26 at 10h 54m 38s.xml">
-      <configuration name="BDMapPOIReptileTest.testMain" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BDMapPOIReptileTest_testMain - 2019.12.26 at 10h 56m 12s.xml">
-      <configuration name="BDMapPOIReptileTest.testMain" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BDMapPOIReptileTest_testMain - 2019.12.26 at 10h 56m 49s.xml">
       <configuration name="BDMapPOIReptileTest.testMain" configurationId="JUnit" />
     </history-entry>
@@ -345,6 +387,18 @@
     </history-entry>
     <history-entry file="BDMapPOIReptileTest_testMain - 2019.12.26 at 11h 24m 27s.xml">
       <configuration name="BDMapPOIReptileTest.testMain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BDMapPOIReptileTest_testMain - 2019.12.27 at 11h 43m 27s.xml">
+      <configuration name="BDMapPOIReptileTest.testMain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BDMapPOIReptileTest_testMain - 2019.12.27 at 11h 46m 49s.xml">
+      <configuration name="BDMapPOIReptileTest.testMain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_testSplit - 2019.12.27 at 12h 52m 57s.xml">
+      <configuration name="RectangleTest.testSplit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_testSplit - 2019.12.27 at 12h 54m 34s.xml">
+      <configuration name="RectangleTest.testSplit" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -388,7 +442,8 @@
     <MESSAGE value="AMap Reptile Tools" />
     <MESSAGE value="HttpSend Try" />
     <MESSAGE value="Add Baidu Reptile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Baidu Reptile" />
+    <MESSAGE value="Complete Baidu Reptile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Baidu Reptile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -670,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/common/BDMapServers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/amap/src/main/java/com/wozipa/reptile/amap/poi/AMapPOIReptile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -694,10 +742,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/common/BDMapServers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/test/java/com/wozipa/reptile/common/geo/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wozipa/reptile/common/geo/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1060#1061#0" expanded="true" />
@@ -716,8 +792,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bdmap/src/main/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="58" column="78" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="78" />
+        <state relative-caret-position="238">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -726,8 +802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bdmap/src/test/java/com/wozipa/reptile/bdmap/poi/BDMapPOIReptileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
